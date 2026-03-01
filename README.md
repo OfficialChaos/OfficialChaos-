@@ -1,6 +1,6 @@
 # Shawn G. Kleipe
 
-**Independent Researcher — Quantum Error Mitigation & Physics-Informed Methods**
+**Independent Researcher - Quantum Error Mitigation & Physics-Informed Methods**
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0002--2480--2430-brightgreen?logo=orcid)](https://orcid.org/0009-0002-2480-2430)
 [![DOI](https://zenodo.org/badge/1169766876.svg)](https://doi.org/10.5281/zenodo.18827721)
