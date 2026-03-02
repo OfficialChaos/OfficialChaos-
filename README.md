@@ -36,5 +36,5 @@ Introducing two contributions to quantum error mitigation:
 ## Links
 
 - 🔬 ORCID: [0009-0002-2480-2430](https://orcid.org/0009-0002-2480-2430)
-- 💾 Zenodo: [10.5281/zenodo.18827721](https://doi.org/10.5281/zenodo.18827721)
+- 💾 Zenodo: [10.5281/zenodo.18827721](https://doi.org/10.5281/zenodo.18830306)
 - 📦 Repo: [Quantum-Vortex-QEM](https://github.com/OfficialChaos/Quantum-Vortex-QEM)
