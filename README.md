@@ -3,7 +3,7 @@
 **Independent Researcher - Quantum Error Mitigation & Physics-Informed Methods**
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0002--2480--2430-brightgreen?logo=orcid)](https://orcid.org/0009-0002-2480-2430)
-[![DOI](https://zenodo.org/badge/1169766876.svg)](https://doi.org/10.5281/zenodo.18830306)
+[![DOI](https://zenodo.org/badge/1169766876.svg)](https://doi.org/10.5281/zenodo.18849515)
 [![arXiv](https://img.shields.io/badge/arXiv-pending-red.svg)]()
 
 ---
@@ -17,9 +17,9 @@ Introducing two contributions to quantum error mitigation:
 - A **Navier-Stokes energy dissipation filter** applied to ZNE extrapolation residuals as a post-hoc reliability criterion — flags hallucinated corrections without additional circuit evaluations
 - A **Fibonacci noise scaling schedule** as an alternative to conventional linear/odd ZNE scaling, exposing a coverage-smoothness tradeoff not previously characterized
 
-> Evaluated across 200 configurations (4 depths × 5 noise levels × 10 trials) using shot-based density matrix simulation in Cirq + Mitiq
+> Evaluated across 17,280 experiment runs (3 circuit types × 3 schedules × 3 extrapolants × 8 depths × 8 noise levels × 10 trials) using shot-based density matrix simulation in Cirq + Mitiq
 
-📄 [Paper (PDF)](https://github.com/OfficialChaos/Quantum-Vortex-QEM/blob/main/paper/kleipe2026_fluid_dynamic_zne.pdf) | 💾 [Code](https://github.com/OfficialChaos/Quantum-Vortex-QEM) | 🗃️ [Zenodo Archive](https://doi.org/10.5281/zenodo.18830306)
+📄 [Paper (PDF)](https://github.com/OfficialChaos/Quantum-Vortex-QEM/blob/main/paper/kleipe2026_fluid_dynamic_zne.pdf) | 💾 [Code](https://github.com/OfficialChaos/Quantum-Vortex-QEM) | 🗃️ [Zenodo Archive](https://doi.org/10.5281/zenodo.18849515)
 
 ---
 
@@ -36,5 +36,5 @@ Introducing two contributions to quantum error mitigation:
 ## Links
 
 - 🔬 ORCID: [0009-0002-2480-2430](https://orcid.org/0009-0002-2480-2430)
-- 💾 Zenodo: [10.5281/zenodo.18830306](https://doi.org/10.5281/zenodo.18830306)
+- 💾 Zenodo: [10.5281/zenodo.18849515](https://doi.org/10.5281/zenodo.18849515)
 - 📦 Repo: [Quantum-Vortex-QEM](https://github.com/OfficialChaos/Quantum-Vortex-QEM)
