@@ -21,11 +21,13 @@ Evaluated across **153,600 simulation runs** (4 circuit types × 5 schedules × 
 
 ## Stack
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue)
-![Cirq](https://img.shields.io/badge/Cirq-1.3+-lightgrey)
-![Mitiq](https://img.shields.io/badge/Mitiq-0.38+-lightgrey)
-![Qiskit](https://img.shields.io/badge/Qiskit-1.0+-6929C4)
-![IBM Quantum](https://img.shields.io/badge/IBM%20Quantum-ibm__fez%20%7C%20ibm__torino-black)
+[![Python](https://img.shields.io)](https://www.python.org)
+[![Cirq](https://img.shields.io)](https://quantumai.google)
+[![Mitiq](https://img.shields.io)](https://mitiq.unitary.fund)
+[![Qiskit](https://img.shields.io)](https://www.ibm.com)
+[![IBM Torino](https://img.shields.io)](https://quantum.cloud.ibm.com)
+[![IBM Fez](https://img.shields.io)](https://quantum.cloud.ibm.com)
+
 
 ---
 
