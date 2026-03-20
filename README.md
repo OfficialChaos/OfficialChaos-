@@ -21,13 +21,13 @@ Evaluated across **153,600 simulation runs** (4 circuit types × 5 schedules × 
 
 ## Stack
 
-[![Python](https://img.shields.io)](https://www.python.org)
-[![Cirq](https://img.shields.io)](https://quantumai.google)
-[![Mitiq](https://img.shields.io)](https://mitiq.unitary.fund)
-[![Qiskit](https://img.shields.io)](https://www.ibm.com)
-[![IBM Quantum](https://img.shields.io)](https://quantum.cloud.ibm.com)
-[![IBM Torino](https://img.shields.io)](https://quantum.cloud.ibm.com/computers?system=ibm_torino)
-[![IBM Fez](https://img.shields.io)](https://quantum.cloud.ibm.com/computers?system=ibm_fez)
+[![Python](https://img.shields.io/badge/Python-3.10+-blue)](https://www.python.org)
+[![Cirq](https://img.shields.io/badge/Cirq-1.3+-lightgrey)](https://quantumai.google)
+[![Mitiq](https://img.shields.io/badge/Mitiq-0.38+-lightgrey)](https://mitiq.unitary.fund)
+[![Qiskit](https://img.shields.io/badge/Qiskit-1.0+-6929C4)](https://www.ibm.com)
+[![IBM Quantum](https://img.shields.io/badge/IBM%20Quantum-0268C2)](https://quantum.cloud.ibm.com)
+[![IBM Torino](https://img.shields.io/badge/IBM%20Torino-0062FF)](https://quantum.cloud.ibm.com/computers?system=ibm_torino)
+[![IBM Fez](https://img.shields.io/badge/IBM%20Fez-0062FF)](https://quantum.cloud.ibm.com/computers?system=ibm_fez)
 
 ---
 
@@ -36,4 +36,3 @@ Evaluated across **153,600 simulation runs** (4 circuit types × 5 schedules × 
 - 🔬 ORCID: [0009-0002-2480-2430](https://orcid.org/0009-0002-2480-2430)
 - 🗃️ Zenodo: [10.5281/zenodo.18827720](https://doi.org/10.5281/zenodo.18827720)
 - 📦 Repo: [Quantum-Vortex-QEM](https://github.com/OfficialChaos/Quantum-Vortex-QEM)
-- 
