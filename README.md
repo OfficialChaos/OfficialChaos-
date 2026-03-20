@@ -25,9 +25,9 @@ Evaluated across **153,600 simulation runs** (4 circuit types × 5 schedules × 
 [![Cirq](https://img.shields.io)](https://quantumai.google)
 [![Mitiq](https://img.shields.io)](https://mitiq.unitary.fund)
 [![Qiskit](https://img.shields.io)](https://www.ibm.com)
-[![IBM Torino](https://img.shields.io)](https://quantum.cloud.ibm.com)
-[![IBM Fez](https://img.shields.io)](https://quantum.cloud.ibm.com)
-
+[![IBM Quantum](https://img.shields.io)](https://quantum.cloud.ibm.com)
+[![IBM Torino](https://img.shields.io)](https://quantum.cloud.ibm.com/computers?system=ibm_torino)
+[![IBM Fez](https://img.shields.io)](https://quantum.cloud.ibm.com/computers?system=ibm_fez)
 
 ---
 
