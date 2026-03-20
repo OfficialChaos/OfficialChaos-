@@ -1,40 +1,37 @@
 # Shawn G. Kleipe
 
-**Independent Researcher - Quantum Error Mitigation & Physics-Informed Methods**
-
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0002--2480--2430-brightgreen?logo=orcid)](https://orcid.org/0009-0002-2480-2430)
-[![DOI](https://zenodo.org/badge/1169766876.svg)](https://doi.org/10.5281/zenodo.18849515)
-[![arXiv](https://img.shields.io/badge/arXiv-pending-red.svg)]()
+**Independent Researcher — Quantum Error Mitigation & Physics-Informed Methods**
 
 ---
 
 ## Current Research
 
-**Fluid-Dynamic Stability Filtering for Zero-Noise Extrapolation in NISQ-Era Quantum Circuits**
+### Fluid-Dynamic Stability Filtering for Zero-Noise Extrapolation in NISQ-Era Quantum Circuits
 
 Introducing two contributions to quantum error mitigation:
 
-- A **Navier-Stokes energy dissipation filter** applied to ZNE extrapolation residuals as a post-hoc reliability criterion — flags hallucinated corrections without additional circuit evaluations
-- A **Fibonacci noise scaling schedule** as an alternative to conventional linear/odd ZNE scaling, exposing a coverage-smoothness tradeoff not previously characterized
+- **A fluid-dynamic stability filter** — a post-hoc reliability criterion based on a discrete H¹ Sobolev regularity functional on the ZNE curve. Flags unreliable ZNE outputs without additional circuit evaluations. Zero flags in 14,400 simulation trials at p≤0.01, d≤4 (95% C-P bound: p_flag < 0.00022).
+- **Five structured noise scaling schedules** — Fibonacci, Lucas, prime-anchored, linear, and odd-integer — systematically compared across all four standard extrapolants (linear, Richardson, poly-2, poly-3). Fibonacci achieves lowest mean ε; Lucas achieves lowest ZNE variance on unstructured circuits.
 
-> Evaluated across 17,280 experiment runs (3 circuit types × 3 schedules × 3 extrapolants × 8 depths × 8 noise levels × 10 trials) using shot-based density matrix simulation in Cirq + Mitiq
+Evaluated across **153,600 simulation runs** (4 circuit types × 5 schedules × 4 extrapolants × 3 qubit counts × 8 depths × 8 noise levels × 10 trials) and **120 hardware trials** on IBM Quantum processors ibm_fez (Heron r2) and ibm_torino (Heron r1). All 24 hardware conditions pass Γ=0.05; maximum observed ε=0.00285 (5.7% of Γ).
 
-📄 [Paper (PDF)](https://github.com/OfficialChaos/Quantum-Vortex-QEM/blob/main/paper/kleipe2026_fluid_dynamic_zne.pdf) | 💾 [Code](https://github.com/OfficialChaos/Quantum-Vortex-QEM) | 🗃️ [Zenodo Archive](https://doi.org/10.5281/zenodo.18849515)
+📄 [Paper (PDF)](https://github.com/OfficialChaos/Quantum-Vortex-QEM/blob/main/paper/kleipe2026_v4.pdf) &nbsp;|&nbsp; 💾 [Code](https://github.com/OfficialChaos/Quantum-Vortex-QEM) &nbsp;|&nbsp; 🗃️ [Zenodo Archive](https://doi.org/10.5281/zenodo.18827720)
 
 ---
 
 ## Stack
 
-![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
-![Cirq](https://img.shields.io/badge/Cirq-1.3-blue)
-![Mitiq](https://img.shields.io/badge/Mitiq-0.38-blue)
-![NumPy](https://img.shields.io/badge/NumPy-1.26-blue?logo=numpy)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-3.8-blue)
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Cirq](https://img.shields.io/badge/Cirq-1.3+-lightgrey)
+![Mitiq](https://img.shields.io/badge/Mitiq-0.38+-lightgrey)
+![Qiskit](https://img.shields.io/badge/Qiskit-1.0+-6929C4)
+![IBM Quantum](https://img.shields.io/badge/IBM%20Quantum-ibm__fez%20%7C%20ibm__torino-black)
 
 ---
 
 ## Links
 
 - 🔬 ORCID: [0009-0002-2480-2430](https://orcid.org/0009-0002-2480-2430)
-- 💾 Zenodo: [10.5281/zenodo.18849515](https://doi.org/10.5281/zenodo.18849515)
+- 🗃️ Zenodo: [10.5281/zenodo.18827720](https://doi.org/10.5281/zenodo.18827720)
 - 📦 Repo: [Quantum-Vortex-QEM](https://github.com/OfficialChaos/Quantum-Vortex-QEM)
+- 
